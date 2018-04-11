@@ -15,7 +15,7 @@ public class TrailerCheck {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://yandex.ru/video/search?text=%D1%83%D1%80%D0%B0%D0%B3%D0%B0%D0%BD&path=main&reqid=1523288148193198-1047723415193269043788330-sas1-1664-V");
-        List<WebElement> list; // = new ArrayList<WebElement>();
+        List<WebElement> list;
         list = driver.findElements(By.xpath("//div[@class='serp-controller__content']/div[1]/descendant::*"));
 
         int i = 0;
